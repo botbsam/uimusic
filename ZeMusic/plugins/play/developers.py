@@ -1,20 +1,15 @@
 import asyncio
-
 import os
-import time
 import requests
-from config import START_IMG_URL
-from pyrogram import filters
-import random
+import pyrogram
 from pyrogram import Client, filters, emoji
-from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton, ReplyKeyboardMarkup
 from strings.filters import command
-from ZeMusic import (Apple, Resso, SoundCloud, Spotify, Telegram, YouTube, app)
+from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton, ReplyKeyboardMarkup
+from pyrogram.errors import MessageNotModified
 from ZeMusic import app
-from random import  choice, randint
+from config import OWNER_ID, LOGGER_ID
+import config
 
-#          
-                
 @app.on_message(
   command(["المبرمج","مبرمج السورس","مبرمج","مطور السورس"])
 )
