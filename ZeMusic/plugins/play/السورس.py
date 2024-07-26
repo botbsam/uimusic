@@ -20,17 +20,17 @@ from random import  choice, randint
 async def huhh(client: Client, message: Message):
     await message.reply_photo(
         photo=f"https://telegra.ph/file/4b450b6cbb509bfcd9b22.jpg",
-        caption = f"""<b>  𝒘𝒆𝒍𝒄𝒐𝒎𝒆𝒖 𝒕𝒐 <b>\n<a href="https://t.me/ngd_1"> 𝒔𝒐𝒖𝒓𝒄𝒆 𝐚𝐥𝐢𝐜𝐞🥂</a></b>""",
+        caption = f"""<b>  𝒘𝒆𝒍𝒄𝒐𝒎𝒆𝒖 𝒕𝒐 <b>\n<a href="https://t.me/W_6_50"> 𝒔𝒐𝒖𝒓𝒄𝒆 </a></b>""",
 reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "  Dev🏅 ", url=f"https://t.me/Z_l_7"),
+                        "  Dev🏅 ", url=f"https://t.me/b_w_41"),
                 ],[
                     
                 
                     InlineKeyboardButton(
-                        " 𝒔𝒐𝒖𝒓𝒄𝒆 𝐚𝐥𝐢𝐜𝐞", url=f"https://t.me/ngd_1"),         
+                        " 𝒔𝒐𝒖𝒓𝒄𝒆 𝐚𝐥𝐢𝐜𝐞", url=f"https://t.me/W_6_50"),         
                 ],
 
             ]
